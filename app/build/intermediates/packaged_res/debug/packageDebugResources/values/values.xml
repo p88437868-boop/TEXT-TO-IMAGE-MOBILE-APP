@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#9B6DDB</color>
+    <color name="accent_soft">#2E9B6DDB</color>
+    <color name="bg_canvas">#0B0B10</color>
+    <color name="border_strong">#44444D</color>
+    <color name="border_subtle">#2E2E35</color>
+    <color name="brand_accent_end">#6A3FB5</color>
+    <color name="brand_accent_start">#9B6DDB</color>
+    <color name="checker_dark">#1B1B20</color>
+    <color name="checker_light">#24242A</color>
+    <color name="danger">#E5484D</color>
+    <color name="kb_accent">#2F6BE4</color>
+    <color name="kb_accent_pressed">#2457C4</color>
+    <color name="kb_accent_soft">#D8E2FB</color>
+    <color name="kb_background">#F5F6F8</color>
+    <color name="kb_divider">#E5E6EC</color>
+    <color name="kb_key">#FFFFFF</color>
+    <color name="kb_key_pressed">#DDDFE6</color>
+    <color name="kb_key_special">#D8DAE2</color>
+    <color name="kb_key_special_pressed">#C3C6D1</color>
+    <color name="kb_text">#1B1B1F</color>
+    <color name="kb_text_hint">#83838F</color>
+    <color name="kb_text_muted">#5B5B67</color>
+    <color name="key_fill">#26262C</color>
+    <color name="key_fill_special">#323239</color>
+    <color name="success">#2FA394</color>
+    <color name="surface_card">#1E1E23</color>
+    <color name="surface_input">#141418</color>
+    <color name="surface_nav">#17171B</color>
+    <color name="surface_selected">#2B2B31</color>
+    <color name="text_disabled">#55555E</color>
+    <color name="text_muted">#80808A</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B4B4BD</color>
+    <color name="warning">#E8B04A</color>
+    <string name="app_name">TextPic Studio</string>
+    <string name="ime_name">TextPic Keyboard</string>
+    <string name="ime_subtype_english">English (US)</string>
+    <string name="share_label">TextPic</string>
+    <string name="tile_label">New TextPic message</string>
+    <style name="Theme.TextPic" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:windowBackground">@color/bg_canvas</item>
+        <item name="android:navigationBarColor">@color/bg_canvas</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.TextPic.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bg_canvas</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.TextPic</item>
+    </style>
+    <style name="Theme.TextPic.Transparent" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

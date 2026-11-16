@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.license.DeviceCodeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-15T14:57:14" hostname="DESKTOP-QI6H2EA" time="0.027">
+  <properties/>
+  <testcase name="json parsing handles the reply shape" classname="com.textpic.license.DeviceCodeTest" time="0.005"/>
+  <testcase name="pasted codes are normalized" classname="com.textpic.license.DeviceCodeTest" time="0.016"/>
+  <testcase name="the code is stable for the same phone and different for another" classname="com.textpic.license.DeviceCodeTest" time="0.001"/>
+  <testcase name="incomplete or impossible codes are refused" classname="com.textpic.license.DeviceCodeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

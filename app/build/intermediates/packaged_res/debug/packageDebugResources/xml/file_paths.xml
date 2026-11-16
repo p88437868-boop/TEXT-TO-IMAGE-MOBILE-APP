@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="images" path="images/" />
+    <cache-path name="ime_images" path="ime_images/" />
+    <cache-path name="share" path="share/" />
+    <cache-path name="updates" path="updates/" />
+</paths>

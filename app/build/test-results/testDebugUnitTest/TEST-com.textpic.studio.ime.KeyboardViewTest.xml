@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.ime.KeyboardViewTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:42:43" hostname="DESKTOP-QI6H2EA" time="1.281">
+  <properties/>
+  <testcase name="symbols page two is reached through the backslash key and returns" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.26"/>
+  <testcase name="space and backspace reach the listener once per tap" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.108"/>
+  <testcase name="a number field starts on the numpad" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.09"/>
+  <testcase name="password fields get a plain keyboard and no personalisation" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.099"/>
+  <testcase name="a taller preference makes the keyboard taller" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.118"/>
+  <testcase name="shift turns the next letter into a capital" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.119"/>
+  <testcase name="tapping a letter commits it" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.116"/>
+  <testcase name="the question mark key opens the symbols page" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.094"/>
+  <testcase name="tapping Send in the toolbar reaches the listener" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.085"/>
+  <testcase name="the view is sized to the Gboard proportions" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.103"/>
+  <testcase name="the numpad page is reached from the symbols page and returns to letters" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.088"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[System.logW: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+java.lang.Throwable: Explicit termination method 'SQLiteConnection.close' not called
+	at dalvik.system.CloseGuard.$$robo$$dalvik_system_CloseGuard$openWithCallSite(CloseGuard.java:288)
+	at dalvik.system.CloseGuard.openWithCallSite(CloseGuard.java)
+	at dalvik.system.CloseGuard.$$robo$$dalvik_system_CloseGuard$open(CloseGuard.java:257)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.robolectric.shadows.ShadowCloseGuard$CloseGuardReflector$$Reflector82.open(Unknown Source)
+	at org.robolectric.shadows.ShadowCloseGuard.open(ShadowCloseGuard.java:38)
+	at dalvik.system.CloseGuard.open(CloseGuard.java)
+	at android.database.sqlite.SQLiteConnection.$$robo$$android_database_sqlite_SQLiteConnection$__constructor__(SQLiteConnection.java:195)
+	at android.database.sqlite.SQLiteConnection.<init>(SQLiteConnection.java:186)
+	at android.database.sqlite.SQLiteConnection.$$robo$$android_database_sqlite_SQLiteConnection$open(SQLiteConnection.java:215)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnectionPool.$$robo$$android_database_sqlite_SQLiteConnectionPool$openConnectionLocked(SQLiteConnectionPool.java:535)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java)
+	at android.database.sqlite.SQLiteConnectionPool.$$robo$$android_database_sqlite_SQLiteConnectionPool$tryAcquireNonPrimaryConnectionLocked(SQLiteConnectionPool.java:1020)
+	at android.database.sqlite.SQLiteConnectionPool.tryAcquireNonPrimaryConnectionLocked(SQLiteConnectionPool.java)
+	at android.database.sqlite.SQLiteConnectionPool.$$robo$$android_database_sqlite_SQLiteConnectionPool$waitForConnection(SQLiteConnectionPool.java:726)
+	at android.database.sqlite.SQLiteConnectionPool.waitForConnection(SQLiteConnectionPool.java)
+	at android.database.sqlite.SQLiteConnectionPool.$$robo$$android_database_sqlite_SQLiteConnectionPool$acquireConnection(SQLiteConnectionPool.java:399)
+	at android.database.sqlite.SQLiteConnectionPool.acquireConnection(SQLiteConnectionPool.java)
+	at android.database.sqlite.SQLiteSession.$$robo$$android_database_sqlite_SQLiteSession$acquireConnection(SQLiteSession.java:920)
+	at android.database.sqlite.SQLiteSession.acquireConnection(SQLiteSession.java)
+	at android.database.sqlite.SQLiteSession.$$robo$$android_database_sqlite_SQLiteSession$executeForLong(SQLiteSession.java:676)
+	at android.database.sqlite.SQLiteSession.executeForLong(SQLiteSession.java)
+	at android.database.sqlite.SQLiteStatement.$$robo$$android_database_sqlite_SQLiteStatement$simpleQueryForLong(SQLiteStatement.java:110)
+	at android.database.sqlite.SQLiteStatement.simpleQueryForLong(SQLiteStatement.java)
+	at android.database.DatabaseUtils.$$robo$$android_database_DatabaseUtils$longForQuery(DatabaseUtils.java:1044)
+	at android.database.DatabaseUtils.longForQuery(DatabaseUtils.java)
+	at android.database.DatabaseUtils.$$robo$$android_database_DatabaseUtils$longForQuery(DatabaseUtils.java:1032)
+	at android.database.DatabaseUtils.longForQuery(DatabaseUtils.java)
+	at android.database.sqlite.SQLiteDatabase.$$robo$$android_database_sqlite_SQLiteDatabase$getVersion(SQLiteDatabase.java:1338)
+	at android.database.sqlite.SQLiteDatabase.getVersion(SQLiteDatabase.java)
+	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.onConfigure(FrameworkSQLiteOpenHelper.kt:260)
+	at android.database.sqlite.SQLiteOpenHelper.$$robo$$android_database_sqlite_SQLiteOpenHelper$getDatabaseLocked(SQLiteOpenHelper.java:386)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java)
+	at android.database.sqlite.SQLiteOpenHelper.$$robo$$android_database_sqlite_SQLiteOpenHelper$getWritableDatabase(SQLiteOpenHelper.java:316)
+	at android.database.sqlite.SQLiteOpenHelper.getWritableDatabase(SQLiteOpenHelper.java)
+	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getWritableOrReadableDatabase(FrameworkSQLiteOpenHelper.kt:232)
+	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.innerGetDatabase(FrameworkSQLiteOpenHelper.kt:190)
+	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper.getSupportDatabase(FrameworkSQLiteOpenHelper.kt:151)
+	at androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper.getWritableDatabase(FrameworkSQLiteOpenHelper.kt:104)
+	at androidx.room.RoomDatabase.inTransaction(RoomDatabase.kt:632)
+	at androidx.room.RoomDatabase.assertNotSuspendingTransaction(RoomDatabase.kt:451)
+	at androidx.room.RoomDatabase.query(RoomDatabase.kt:480)
+	at androidx.room.util.DBUtil.query(DBUtil.kt:75)
+	at com.textpic.studio.data.db.TemplateDao_Impl$11.call(TemplateDao_Impl.java:271)
+	at com.textpic.studio.data.db.TemplateDao_Impl$11.call(TemplateDao_Impl.java:267)
+	at androidx.room.CoroutinesRoom$Companion$execute$4$job$1.invokeSuspend(CoroutinesRoom.kt:87)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.domain.LicenseGateTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:48:50" hostname="DESKTOP-QI6H2EA" time="0.021">
+  <properties/>
+  <testcase name="gate refuses everything while unlicensed" classname="com.textpic.studio.domain.LicenseGateTest" time="0.002"/>
+  <testcase name="an unlimited plan never blocks and typing is never gated" classname="com.textpic.studio.domain.LicenseGateTest" time="0.003"/>
+  <testcase name="a used up daily plan blocks new images" classname="com.textpic.studio.domain.LicenseGateTest" time="0.003"/>
+  <testcase name="gate allows features once licensed" classname="com.textpic.studio.domain.LicenseGateTest" time="0.001"/>
+  <testcase name="the studio shows how many images are left" classname="com.textpic.studio.domain.LicenseGateTest" time="0.006"/>
+  <testcase name="pending renders count before the server hears about them" classname="com.textpic.studio.domain.LicenseGateTest" time="0.001"/>
+  <testcase name="the usage gate mirrors the license gate" classname="com.textpic.studio.domain.LicenseGateTest" time="0.004"/>
+  <testcase name="a broken provider counts as unlicensed instead of crashing" classname="com.textpic.studio.domain.LicenseGateTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="incidents">
+
+    <incident
+        id="WrongConstant"
+        severity="error"
+        message="Must be one of: LineBreaker.BREAK_STRATEGY_SIMPLE, LineBreaker.BREAK_STRATEGY_HIGH_QUALITY, LineBreaker.BREAK_STRATEGY_BALANCED">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to LineBreaker.BREAK_STRATEGY_SIMPLE (0)"
+                replacement="android.graphics.text.LineBreaker.BREAK_STRATEGY_SIMPLE"
+                shortenNames="true"
+                priority="0"/>
+            <fix-replace
+                description="Change to LineBreaker.BREAK_STRATEGY_HIGH_QUALITY"
+                replacement="android.graphics.text.LineBreaker.BREAK_STRATEGY_HIGH_QUALITY"
+                shortenNames="true"
+                priority="0"/>
+            <fix-replace
+                description="Change to LineBreaker.BREAK_STRATEGY_BALANCED"
+                replacement="android.graphics.text.LineBreaker.BREAK_STRATEGY_BALANCED"
+                shortenNames="true"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="${:core*debug*MAIN*sourceProvider*0*javaDir*0}/com/textpic/core/BubbleRenderer.kt"
+            line="51"
+            column="31"
+            startOffset="1698"
+            endLine="51"
+            endColumn="59"
+            endOffset="1726"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.ime.SendFlowTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:48:55" hostname="DESKTOP-QI6H2EA" time="0.016">
+  <properties/>
+  <testcase name="Go and Done also count as send actions" classname="com.textpic.studio.ime.SendFlowTest" time="0.005"/>
+  <testcase name="confirming shows Undo for two seconds before sending" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="a field without a send action falls back to Enter" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="Press Enter only never uses the app action" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="the app's own Send action is pressed after the delay" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="Undo cancels the send and keeps the inserted image" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="the setting survives a round trip through its wire name" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="only a template with placeholders asks for values" classname="com.textpic.studio.ime.SendFlowTest" time="0.004"/>
+  <testcase name="a skin tone goes before the variation selector" classname="com.textpic.studio.ime.SendFlowTest" time="0.003"/>
+  <testcase name="Send is only pressed once even if the timer fires twice" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="template placeholders are found once, in order" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="confirming with Do nothing skips the chip" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="an unhandled app action falls back to Enter" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="an app that refuses images is reported and nothing is cleared" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="empty text does nothing at all" classname="com.textpic.studio.ime.SendFlowTest" time="0.001"/>
+  <testcase name="filling a template keeps the holes that were skipped" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="the send delay stays between 200 and 1500 ms" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="the trigger follows the setting and the field's action" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <testcase name="Do nothing inserts and clears but never sends" classname="com.textpic.studio.ime.SendFlowTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

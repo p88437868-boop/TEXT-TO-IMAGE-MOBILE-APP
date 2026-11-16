@@ -1,0 +1,27 @@
+{
+  "page": "symbols1",
+  "rows": [
+    [
+      {"char": "1"}, {"char": "2"}, {"char": "3"}, {"char": "4"}, {"char": "5"},
+      {"char": "6"}, {"char": "7"}, {"char": "8"}, {"char": "9"}, {"char": "0"}
+    ],
+    [
+      {"char": "@"}, {"char": "#"}, {"char": "£"}, {"char": "_"}, {"char": "&"},
+      {"char": "-"}, {"char": "+"}, {"char": "("}, {"char": ")"}, {"char": "/"}
+    ],
+    [
+      {"kind": "mode", "label": "=<", "page": "symbols2", "weight": 1.58, "style": "special"},
+      {"char": "*"}, {"char": "\""}, {"char": "'"}, {"char": ":"},
+      {"char": ";"}, {"char": "!"}, {"char": "?"},
+      {"kind": "backspace", "weight": 1.58, "style": "special"}
+    ],
+    [
+      {"kind": "mode", "label": "ABC", "page": "letters", "weight": 1.58, "style": "pill"},
+      {"kind": "comma", "label": ",", "style": "special"},
+      {"kind": "mode", "label": "1234", "stacked": ["12", "34"], "page": "numpad"},
+      {"kind": "space", "label": "English", "weight": 4},
+      {"kind": "period", "label": ".", "alt": ",?!:;-'\"/@&", "style": "special"},
+      {"kind": "action", "weight": 1.6, "style": "pill"}
+    ]
+  ]
+}

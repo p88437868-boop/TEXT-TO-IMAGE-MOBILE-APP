@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.license.SignedReplyTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-15T14:57:14" hostname="DESKTOP-QI6H2EA" time="0.485">
+  <properties/>
+  <testcase name="a correctly signed reply is accepted" classname="com.textpic.license.SignedReplyTest" time="0.292"/>
+  <testcase name="a lifetime reply has no end date" classname="com.textpic.license.SignedReplyTest" time="0.01"/>
+  <testcase name="blocked and cancelled replies map to locked states" classname="com.textpic.license.SignedReplyTest" time="0.11"/>
+  <testcase name="a replayed reply with another nonce is rejected" classname="com.textpic.license.SignedReplyTest" time="0.028"/>
+  <testcase name="garbage is rejected without throwing" classname="com.textpic.license.SignedReplyTest" time="0.016"/>
+  <testcase name="an edited payload is rejected" classname="com.textpic.license.SignedReplyTest" time="0.013"/>
+  <testcase name="a reply signed with another key is rejected" classname="com.textpic.license.SignedReplyTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

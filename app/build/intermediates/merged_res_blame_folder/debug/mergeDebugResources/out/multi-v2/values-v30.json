@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.textpic.studio.app-mergeDebugResources-76:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\8.9\\transforms\\431c3ef91ff135aa279e3b3b1e6ba05a\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Mon Nov 16 05:52:31 PST 2026
+base.0=C\:\\Users\\Admin\\Desktop\\Text-to-image-App\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,48 @@
+{
+  "name": "English symbols",
+  "rows": [
+    [
+      {"label": "1", "output": "1", "type": "char", "weight": 1},
+      {"label": "2", "output": "2", "type": "char", "weight": 1},
+      {"label": "3", "output": "3", "type": "char", "weight": 1},
+      {"label": "4", "output": "4", "type": "char", "weight": 1},
+      {"label": "5", "output": "5", "type": "char", "weight": 1},
+      {"label": "6", "output": "6", "type": "char", "weight": 1},
+      {"label": "7", "output": "7", "type": "char", "weight": 1},
+      {"label": "8", "output": "8", "type": "char", "weight": 1},
+      {"label": "9", "output": "9", "type": "char", "weight": 1},
+      {"label": "0", "output": "0", "type": "char", "weight": 1}
+    ],
+    [
+      {"label": "@", "output": "@", "type": "char", "weight": 1},
+      {"label": "#", "output": "#", "type": "char", "weight": 1},
+      {"label": "$", "output": "$", "type": "char", "weight": 1},
+      {"label": "%", "output": "%", "type": "char", "weight": 1},
+      {"label": "&", "output": "&", "type": "char", "weight": 1},
+      {"label": "*", "output": "*", "type": "char", "weight": 1},
+      {"label": "+", "output": "+", "type": "char", "weight": 1},
+      {"label": "(", "output": "(", "type": "char", "weight": 1},
+      {"label": ")", "output": ")", "type": "char", "weight": 1}
+    ],
+    [
+      {"label": "-", "output": "-", "type": "char", "weight": 1},
+      {"label": "_", "output": "_", "type": "char", "weight": 1},
+      {"label": "=", "output": "=", "type": "char", "weight": 1},
+      {"label": "/", "output": "/", "type": "char", "weight": 1},
+      {"label": "\\", "output": "\\", "type": "char", "weight": 1},
+      {"label": "\"", "output": "\"", "type": "char", "weight": 1},
+      {"label": ":", "output": ":", "type": "char", "weight": 1},
+      {"label": ";", "output": ";", "type": "char", "weight": 1},
+      {"label": "⌫", "output": "", "type": "backspace", "weight": 1.4}
+    ],
+    [
+      {"label": "ABC", "output": "", "type": "letters", "weight": 1.4},
+      {"label": ",", "output": ",", "type": "char", "weight": 1},
+      {"label": "space", "output": " ", "type": "space", "weight": 3},
+      {"label": ".", "output": ".", "type": "char", "weight": 1},
+      {"label": "⏎", "output": "", "type": "enter", "weight": 1.4},
+      {"label": "Render", "output": "", "type": "render", "weight": 1.5},
+      {"label": "Insert", "output": "", "type": "insert", "weight": 1.5}
+    ]
+  ]
+}

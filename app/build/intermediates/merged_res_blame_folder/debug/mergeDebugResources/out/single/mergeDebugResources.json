@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\xml_method.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\xml\\method.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.textpic.studio.app-debug-78:/xml_file_paths.xml.flat",
+        "source": "com.textpic.studio.app-main-80:/xml/file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\drawable_ic_keyboard_subtype.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\drawable\\ic_keyboard_subtype.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\drawable_ic_tile.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\drawable\\ic_tile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\font_inter.ttf.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\font\\inter.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\drawable_ic_launcher_monochrome.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\drawable\\ic_launcher_monochrome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\drawable_ic_logo.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\drawable\\ic_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-debug-78:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.9\\com.textpic.studio.app-main-80:\\xml\\file_paths.xml"
+    }
+]

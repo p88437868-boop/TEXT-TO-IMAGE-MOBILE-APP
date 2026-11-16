@@ -1,0 +1,43 @@
+{
+  "name": "Emoji",
+  "rows": [
+    [
+      {"label": "😀", "output": "😀", "type": "char", "weight": 1},
+      {"label": "😂", "output": "😂", "type": "char", "weight": 1},
+      {"label": "😍", "output": "😍", "type": "char", "weight": 1},
+      {"label": "😊", "output": "😊", "type": "char", "weight": 1},
+      {"label": "😎", "output": "😎", "type": "char", "weight": 1},
+      {"label": "😘", "output": "😘", "type": "char", "weight": 1},
+      {"label": "🤔", "output": "🤔", "type": "char", "weight": 1},
+      {"label": "😭", "output": "😭", "type": "char", "weight": 1}
+    ],
+    [
+      {"label": "👍", "output": "👍", "type": "char", "weight": 1},
+      {"label": "👎", "output": "👎", "type": "char", "weight": 1},
+      {"label": "🙏", "output": "🙏", "type": "char", "weight": 1},
+      {"label": "👏", "output": "👏", "type": "char", "weight": 1},
+      {"label": "🔥", "output": "🔥", "type": "char", "weight": 1},
+      {"label": "❤️", "output": "❤️", "type": "char", "weight": 1},
+      {"label": "💯", "output": "💯", "type": "char", "weight": 1},
+      {"label": "✅", "output": "✅", "type": "char", "weight": 1}
+    ],
+    [
+      {"label": "🎉", "output": "🎉", "type": "char", "weight": 1},
+      {"label": "😁", "output": "😁", "type": "char", "weight": 1},
+      {"label": "😅", "output": "😅", "type": "char", "weight": 1},
+      {"label": "🙂", "output": "🙂", "type": "char", "weight": 1},
+      {"label": "😉", "output": "😉", "type": "char", "weight": 1},
+      {"label": "😇", "output": "😇", "type": "char", "weight": 1},
+      {"label": "🤗", "output": "🤗", "type": "char", "weight": 1},
+      {"label": "🤩", "output": "🤩", "type": "char", "weight": 1}
+    ],
+    [
+      {"label": "ABC", "output": "", "type": "letters", "weight": 1.4},
+      {"label": "⌫", "output": "", "type": "backspace", "weight": 1.2},
+      {"label": "space", "output": " ", "type": "space", "weight": 3},
+      {"label": "⏎", "output": "", "type": "enter", "weight": 1.2},
+      {"label": "Render", "output": "", "type": "render", "weight": 1.5},
+      {"label": "Insert", "output": "", "type": "insert", "weight": 1.5}
+    ]
+  ]
+}

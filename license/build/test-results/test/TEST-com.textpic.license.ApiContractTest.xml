@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.license.ApiContractTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-15T14:57:14" hostname="DESKTOP-QI6H2EA" time="0.308">
+  <properties/>
+  <testcase name="nothing else can sneak into the body" classname="com.textpic.license.ApiContractTest" time="0.128"/>
+  <testcase name="the request body contains only whitelisted fields" classname="com.textpic.license.ApiContractTest" time="0.011"/>
+  <testcase name="usage counts are clamped and nonces are unique" classname="com.textpic.license.ApiContractTest" time="0.145"/>
+  <testcase name="base64 round trips both alphabets" classname="com.textpic.license.ApiContractTest" time="0.02"/>
+  <testcase name="escaping keeps json valid" classname="com.textpic.license.ApiContractTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

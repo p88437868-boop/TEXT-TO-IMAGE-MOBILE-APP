@@ -1,0 +1,8 @@
+com.textpic.core
+font arimo
+font carlito
+font dejavu_sans
+font gelasio
+font inter
+font noto_sans
+font selawik

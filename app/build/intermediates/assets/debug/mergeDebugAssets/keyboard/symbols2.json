@@ -1,0 +1,27 @@
+{
+  "page": "symbols2",
+  "rows": [
+    [
+      {"char": "~"}, {"char": "`"}, {"char": "|"}, {"char": "•"}, {"char": "√"},
+      {"char": "π"}, {"char": "÷"}, {"char": "×"}, {"char": "§"}, {"char": "Δ"}
+    ],
+    [
+      {"char": "€"}, {"char": "¥"}, {"char": "$"}, {"char": "¢"}, {"char": "^"},
+      {"char": "°"}, {"char": "="}, {"char": "{"}, {"char": "}"}, {"char": "\\"}
+    ],
+    [
+      {"kind": "mode", "label": "?123", "page": "symbols1", "weight": 1.58, "style": "special"},
+      {"char": "%"}, {"char": "©"}, {"char": "®"}, {"char": "™"},
+      {"char": "✓"}, {"char": "["}, {"char": "]"},
+      {"kind": "backspace", "weight": 1.58, "style": "special"}
+    ],
+    [
+      {"kind": "mode", "label": "ABC", "page": "letters", "weight": 1.58, "style": "pill"},
+      {"kind": "comma", "label": "<", "output": "<", "style": "special"},
+      {"kind": "mode", "label": "1234", "stacked": ["12", "34"], "page": "numpad"},
+      {"kind": "space", "label": "English", "weight": 4},
+      {"kind": "comma", "label": ">", "output": ">", "style": "special"},
+      {"kind": "action", "weight": 1.6, "style": "pill"}
+    ]
+  ]
+}

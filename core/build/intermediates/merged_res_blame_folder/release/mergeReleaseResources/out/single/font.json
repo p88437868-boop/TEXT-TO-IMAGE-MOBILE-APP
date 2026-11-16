@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.textpic.core-release-11:/font/selawik.ttf",
+        "source": "com.textpic.core-main-12:/font/selawik.ttf"
+    },
+    {
+        "merged": "com.textpic.core-release-11:/font/arimo.ttf",
+        "source": "com.textpic.core-main-12:/font/arimo.ttf"
+    },
+    {
+        "merged": "com.textpic.core-release-11:/font/dejavu_sans.ttf",
+        "source": "com.textpic.core-main-12:/font/dejavu_sans.ttf"
+    },
+    {
+        "merged": "com.textpic.core-release-11:/font/noto_sans.ttf",
+        "source": "com.textpic.core-main-12:/font/noto_sans.ttf"
+    },
+    {
+        "merged": "com.textpic.core-release-11:/font/inter.ttf",
+        "source": "com.textpic.core-main-12:/font/inter.ttf"
+    },
+    {
+        "merged": "com.textpic.core-release-11:/font/gelasio.ttf",
+        "source": "com.textpic.core-main-12:/font/gelasio.ttf"
+    },
+    {
+        "merged": "com.textpic.core-release-11:/font/carlito.ttf",
+        "source": "com.textpic.core-main-12:/font/carlito.ttf"
+    }
+]

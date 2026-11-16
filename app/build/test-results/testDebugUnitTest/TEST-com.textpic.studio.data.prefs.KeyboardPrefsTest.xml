@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.data.prefs.KeyboardPrefsTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:42:38" hostname="DESKTOP-QI6H2EA" time="0.046">
+  <properties/>
+  <testcase name="one handed mode uses less than the full width" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.013"/>
+  <testcase name="vibration on calls the haptic with the chosen strength" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.011"/>
+  <testcase name="the three sounds are different" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.003"/>
+  <testcase name="clipboard timeout of zero means never" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.003"/>
+  <testcase name="system theme follows the phone" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.001"/>
+  <testcase name="sound off means no sound call, and a silent volume is treated as off" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.001"/>
+  <testcase name="volume is clamped to 0-100 percent" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.0"/>
+  <testcase name="height levels stay within five steps" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.003"/>
+  <testcase name="vibration off means no haptic call at all" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.002"/>
+  <testcase name="every key sound is a valid 16 bit mono wav" classname="com.textpic.studio.data.prefs.KeyboardPrefsTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

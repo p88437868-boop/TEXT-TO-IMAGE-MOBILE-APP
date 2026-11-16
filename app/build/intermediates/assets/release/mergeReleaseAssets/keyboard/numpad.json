@@ -1,0 +1,25 @@
+{
+  "page": "numpad",
+  "rows": [
+    [
+      {"kind": "operators", "label": "+\n−\n*\n/", "weight": 1, "style": "special", "span": 3},
+      {"char": "1"}, {"char": "2"}, {"char": "3"}, {"char": "%", "style": "special"}
+    ],
+    [
+      {"spanned": true, "weight": 1}, {"char": "4"}, {"char": "5"}, {"char": "6"}, {"char": " ", "label": "␣", "style": "special"}
+    ],
+    [
+      {"spanned": true, "weight": 1}, {"char": "7"}, {"char": "8"}, {"char": "9"},
+      {"kind": "backspace", "style": "special"}
+    ],
+    [
+      {"kind": "mode", "label": "ABC", "page": "letters", "weight": 1, "style": "pill"},
+      {"kind": "comma", "label": ",", "weight": 0.5, "style": "special"},
+      {"kind": "mode", "label": "!?#", "page": "symbols1", "weight": 0.5},
+      {"char": "0", "weight": 1},
+      {"char": "=", "weight": 0.5},
+      {"kind": "comma", "label": ".", "output": ".", "weight": 0.5, "style": "special"},
+      {"kind": "action", "weight": 1, "style": "pill"}
+    ]
+  ]
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnsafeImplicitIntentLaunch">
+            <map id="actionsSent">
+                    <map id="android.settings.INPUT_METHOD_SETTINGS (used to start an activity)">
+                        <location id="0"
+                            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/textpic/studio/ime/ImeStatus.kt"
+                            line="60"
+                            column="31"
+                            startOffset="2331"
+                            endLine="60"
+                            endColumn="76"
+                            endOffset="2376"/>
+                    </map>
+            </map>
+    </map>
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.textpic.studio.MainActivity"
+                    boolean="true"/>
+                <entry
+                    name="com.textpic.studio.ime.ImeSettingsActivity"
+                    boolean="true"/>
+                <entry
+                    name="com.textpic.studio.share.ShareReceiverActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.brand_accent_end"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="159"
+            endLine="5"
+            endColumn="35"
+            endOffset="182"/>
+        <location id="R.color.brand_accent_start"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="106"
+            endLine="4"
+            endColumn="37"
+            endOffset="131"/>
+        <location id="R.color.danger"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="22"
+            column="12"
+            startOffset="954"
+            endLine="22"
+            endColumn="25"
+            endOffset="967"/>
+        <location id="R.color.success"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="20"
+            column="12"
+            startOffset="870"
+            endLine="20"
+            endColumn="26"
+            endOffset="884"/>
+        <location id="R.color.text_disabled"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="17"
+            column="12"
+            startOffset="733"
+            endLine="17"
+            endColumn="32"
+            endOffset="753"/>
+        <location id="R.color.warning"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="21"
+            column="12"
+            startOffset="912"
+            endLine="21"
+            endColumn="26"
+            endOffset="926"/>
+        <entry
+            name="model"
+            string="color[bg_canvas(U),brand_accent_start(D),brand_accent_end(D),surface_card(U),surface_input(U),surface_selected(U),surface_nav(U),key_fill(U),key_fill_special(U),border_subtle(U),border_strong(U),text_primary(U),text_secondary(U),text_muted(U),text_disabled(D),accent(U),accent_soft(U),success(D),warning(D),danger(D),checker_light(U),checker_dark(U)],drawable[ic_keyboard_subtype(U),ic_tile(U),ic_launcher_background(U),ic_launcher_background_1(R),ic_launcher_foreground(U),ic_launcher_monochrome(U),ic_logo(U)],font[inter(R)],mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U),share_label(U),ime_name(U),tile_label(U),ime_subtype_english(U)],style[Theme_TextPic(U),Theme_TextPic_Starting(U),Theme_TextPic_Transparent(U),Theme_SplashScreen(R)],xml[method(U),file_paths(U)];18^19,1e^18^1a^1b,1f^18^1a^1b,25^1d^0,26^28^0^1c^25,27^1d,29^24;;;"/>
+    </map>
+
+</incidents>

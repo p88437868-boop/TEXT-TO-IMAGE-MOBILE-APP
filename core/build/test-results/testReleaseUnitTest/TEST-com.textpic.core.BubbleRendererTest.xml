@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.core.BubbleRendererTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:44:45" hostname="DESKTOP-QI6H2EA" time="17.792">
+  <properties/>
+  <testcase name="longText_wrapsAtMaxWidth_stays460AndGrowsByFixedLineHeight" classname="com.textpic.core.BubbleRendererTest" time="17.117"/>
+  <testcase name="thumbnailFit_usesWideAndSquareRatios" classname="com.textpic.core.BubbleRendererTest" time="0.116"/>
+  <testcase name="longText_rejects2001Characters" classname="com.textpic.core.BubbleRendererTest" time="0.056"/>
+  <testcase name="alignmentControlsTextSideWithNoTransparency" classname="com.textpic.core.BubbleRendererTest" time="0.218"/>
+  <testcase name="validation_rejectsEmptyWhitespaceAndSmallMaxWidth_andClampsSizes" classname="com.textpic.core.BubbleRendererTest" time="0.08"/>
+  <testcase name="compactMode_keepsTransparentLegacyPadding_andIsNotGoldenDefault" classname="com.textpic.core.BubbleRendererTest" time="0.071"/>
+  <testcase name="goldenProfile_isExactly460x69_opaque_and_usesExpectedMetrics" classname="com.textpic.core.BubbleRendererTest" time="0.071"/>
+  <testcase name="scaleTest_producesExpectedHeights" classname="com.textpic.core.BubbleRendererTest" time="0.061"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

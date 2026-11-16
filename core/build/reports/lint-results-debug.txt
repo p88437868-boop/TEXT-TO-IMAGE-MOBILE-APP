@@ -1,0 +1,9 @@
+C:\Users\Admin\Desktop\Text-to-image-App\core\src\main\java\com\textpic\core\BubbleRenderer.kt:51: Error: Must be one of: LineBreaker.BREAK_STRATEGY_SIMPLE, LineBreaker.BREAK_STRATEGY_HIGH_QUALITY, LineBreaker.BREAK_STRATEGY_BALANCED [WrongConstant]
+            .setBreakStrategy(Layout.BREAK_STRATEGY_SIMPLE)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "WrongConstant":
+   Ensures that when parameter in a method only allows a specific set of
+   constants, calls obey those rules.
+
+1 errors, 0 warnings

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.ime.TextPicImeServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:48:55" hostname="DESKTOP-QI6H2EA" time="0.072">
+  <properties/>
+  <testcase name="input view is created" classname="com.textpic.studio.ime.TextPicImeServiceTest" time="0.072"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

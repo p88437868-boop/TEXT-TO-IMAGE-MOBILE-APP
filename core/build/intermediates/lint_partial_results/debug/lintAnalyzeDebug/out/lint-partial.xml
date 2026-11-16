@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="font[selawik(R),arimo(R),carlito(R),noto_sans(R),gelasio(R),dejavu_sans(R)];;;;"/>
+    </map>
+
+</incidents>

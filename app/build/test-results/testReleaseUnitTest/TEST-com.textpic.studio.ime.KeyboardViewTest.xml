@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.ime.KeyboardViewTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:48:54" hostname="DESKTOP-QI6H2EA" time="0.962">
+  <properties/>
+  <testcase name="symbols page two is reached through the backslash key and returns" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.197"/>
+  <testcase name="space and backspace reach the listener once per tap" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.084"/>
+  <testcase name="a number field starts on the numpad" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.084"/>
+  <testcase name="password fields get a plain keyboard and no personalisation" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.066"/>
+  <testcase name="a taller preference makes the keyboard taller" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.091"/>
+  <testcase name="shift turns the next letter into a capital" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.073"/>
+  <testcase name="tapping a letter commits it" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.07"/>
+  <testcase name="the question mark key opens the symbols page" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.089"/>
+  <testcase name="tapping Send in the toolbar reaches the listener" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.089"/>
+  <testcase name="the view is sized to the Gboard proportions" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.059"/>
+  <testcase name="the numpad page is reached from the symbols page and returns to letters" classname="com.textpic.studio.ime.KeyboardViewTest" time="0.058"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

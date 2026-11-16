@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.license.LicenseRulesTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-15T14:57:14" hostname="DESKTOP-QI6H2EA" time="0.014">
+  <properties/>
+  <testcase name="normal clock drift is tolerated" classname="com.textpic.license.LicenseRulesTest" time="0.003"/>
+  <testcase name="days left rounds up and never goes negative" classname="com.textpic.license.LicenseRulesTest" time="0.003"/>
+  <testcase name="blocked, cancelled and expired lock immediately" classname="com.textpic.license.LicenseRulesTest" time="0.003"/>
+  <testcase name="a lifetime license never expires" classname="com.textpic.license.LicenseRulesTest" time="0.0"/>
+  <testcase name="a clock moved backwards requires an online check" classname="com.textpic.license.LicenseRulesTest" time="0.001"/>
+  <testcase name="an active license works offline for seven days" classname="com.textpic.license.LicenseRulesTest" time="0.0"/>
+  <testcase name="no key means unlicensed and never crashes" classname="com.textpic.license.LicenseRulesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

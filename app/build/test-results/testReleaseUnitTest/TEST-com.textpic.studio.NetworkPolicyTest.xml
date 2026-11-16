@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.NetworkPolicyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:48:42" hostname="DESKTOP-QI6H2EA" time="0.124">
+  <properties/>
+  <testcase name="the license request body can only carry the whitelisted fields" classname="com.textpic.studio.NetworkPolicyTest" time="0.02"/>
+  <testcase name="the app manifest requests only the two license permissions" classname="com.textpic.studio.NetworkPolicyTest" time="0.013"/>
+  <testcase name="only LicenseApi and UpdateApi touch the network" classname="com.textpic.studio.NetworkPolicyTest" time="0.089"/>
+  <testcase name="no manifest enables cleartext traffic" classname="com.textpic.studio.NetworkPolicyTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

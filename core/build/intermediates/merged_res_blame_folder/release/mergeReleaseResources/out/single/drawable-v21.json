@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.textpic.core-release-11:/drawable-v21/notification_action_background.xml",
+        "source": "com.textpic.core-core-1.15.0-6:/drawable-v21/notification_action_background.xml"
+    }
+]

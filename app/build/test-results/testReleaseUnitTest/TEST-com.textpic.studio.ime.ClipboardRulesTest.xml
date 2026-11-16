@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.ime.ClipboardRulesTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:48:51" hostname="DESKTOP-QI6H2EA" time="0.01">
+  <properties/>
+  <testcase name="passwords, sensitive clips, blanks and disabled history are never stored" classname="com.textpic.studio.ime.ClipboardRulesTest" time="0.003"/>
+  <testcase name="clearing removes unpinned clips and keeps pinned ones" classname="com.textpic.studio.ime.ClipboardRulesTest" time="0.001"/>
+  <testcase name="a timeout of zero means clips never expire" classname="com.textpic.studio.ime.ClipboardRulesTest" time="0.0"/>
+  <testcase name="pinning and unpinning keeps the order stable" classname="com.textpic.studio.ime.ClipboardRulesTest" time="0.001"/>
+  <testcase name="copying the same text twice moves it up instead of duplicating" classname="com.textpic.studio.ime.ClipboardRulesTest" time="0.001"/>
+  <testcase name="at most twenty clips are kept" classname="com.textpic.studio.ime.ClipboardRulesTest" time="0.002"/>
+  <testcase name="a new clip goes to the top with a fresh id" classname="com.textpic.studio.ime.ClipboardRulesTest" time="0.001"/>
+  <testcase name="unpinned clips expire after the timeout but pinned ones stay" classname="com.textpic.studio.ime.ClipboardRulesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

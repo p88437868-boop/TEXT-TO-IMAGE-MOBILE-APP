@@ -1,0 +1,7 @@
+int font arimo 0x0
+int font carlito 0x0
+int font dejavu_sans 0x0
+int font gelasio 0x0
+int font inter 0x0
+int font noto_sans 0x0
+int font selawik 0x0

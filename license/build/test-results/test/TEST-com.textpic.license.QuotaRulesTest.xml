@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.license.QuotaRulesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-15T14:57:14" hostname="DESKTOP-QI6H2EA" time="0.019">
+  <properties/>
+  <testcase name="summaries read like the app copy" classname="com.textpic.license.QuotaRulesTest" time="0.013"/>
+  <testcase name="a low allowance is flagged at ten percent" classname="com.textpic.license.QuotaRulesTest" time="0.001"/>
+  <testcase name="reports are debounced to one every five minutes" classname="com.textpic.license.QuotaRulesTest" time="0.001"/>
+  <testcase name="unlimited plans never block" classname="com.textpic.license.QuotaRulesTest" time="0.001"/>
+  <testcase name="the local ledger keeps pending renders across a restart" classname="com.textpic.license.QuotaRulesTest" time="0.0"/>
+  <testcase name="a daily plan refills after midnight even while offline" classname="com.textpic.license.QuotaRulesTest" time="0.0"/>
+  <testcase name="a whole period plan blocks at the total and ignores the day" classname="com.textpic.license.QuotaRulesTest" time="0.001"/>
+  <testcase name="messages match the plan" classname="com.textpic.license.QuotaRulesTest" time="0.0"/>
+  <testcase name="a daily plan counts pending renders" classname="com.textpic.license.QuotaRulesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

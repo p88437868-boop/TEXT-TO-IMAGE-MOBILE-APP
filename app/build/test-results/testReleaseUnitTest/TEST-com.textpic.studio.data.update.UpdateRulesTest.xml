@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.textpic.studio.data.update.UpdateRulesTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-16T13:48:50" hostname="DESKTOP-QI6H2EA" time="0.045">
+  <properties/>
+  <testcase name="a missing chunk hash list is refused" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.023"/>
+  <testcase name="the check runs at most every six hours" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.0"/>
+  <testcase name="later hides the prompt for a day" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.0"/>
+  <testcase name="a tampered payload is rejected" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.002"/>
+  <testcase name="an unsigned or garbage reply fails instead of throwing" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.0"/>
+  <testcase name="chunk paths and sizes read like a person expects" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.007"/>
+  <testcase name="the same or an older version means up to date" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.003"/>
+  <testcase name="mandatory updates only block phones below minVersionCode" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.002"/>
+  <testcase name="a properly signed manifest is accepted and parsed" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.004"/>
+  <testcase name="no release yet is up to date, not an error" classname="com.textpic.studio.data.update.UpdateRulesTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

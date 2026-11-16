@@ -1,0 +1,9 @@
+R_DEF: Internal format may change without notice
+local
+font arimo
+font carlito
+font dejavu_sans
+font gelasio
+font inter
+font noto_sans
+font selawik
