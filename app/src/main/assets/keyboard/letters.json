@@ -1,0 +1,49 @@
+{
+  "page": "letters",
+  "rows": [
+    [
+      {"char": "q", "hint": "1", "alt": "1"},
+      {"char": "w", "hint": "2", "alt": "2"},
+      {"char": "e", "hint": "3", "alt": "3"},
+      {"char": "r", "hint": "4", "alt": "4"},
+      {"char": "t", "hint": "5", "alt": "5"},
+      {"char": "y", "hint": "6", "alt": "6"},
+      {"char": "u", "hint": "7", "alt": "7"},
+      {"char": "i", "hint": "8", "alt": "8"},
+      {"char": "o", "hint": "9", "alt": "9"},
+      {"char": "p", "hint": "0", "alt": "0"}
+    ],
+    [
+      {"pad": 0.5},
+      {"char": "a", "alt": "àáâäæãåā"},
+      {"char": "s", "alt": "ßśš"},
+      {"char": "d"},
+      {"char": "f"},
+      {"char": "g"},
+      {"char": "h"},
+      {"char": "j"},
+      {"char": "k"},
+      {"char": "l", "alt": "ł"},
+      {"pad": 0.5}
+    ],
+    [
+      {"kind": "shift", "weight": 1.58, "style": "special"},
+      {"char": "z", "alt": "žźż"},
+      {"char": "x"},
+      {"char": "c", "alt": "çćč"},
+      {"char": "v"},
+      {"char": "b"},
+      {"char": "n", "alt": "ñń"},
+      {"char": "m"},
+      {"kind": "backspace", "weight": 1.58, "style": "special"}
+    ],
+    [
+      {"kind": "mode", "label": "?123", "page": "symbols1", "weight": 1.58, "style": "pill"},
+      {"kind": "comma", "label": ",", "alt": "‚‘’", "style": "special"},
+      {"kind": "globe", "label": "globe"},
+      {"kind": "space", "label": "English", "weight": 4},
+      {"kind": "period", "label": ".", "alt": ",?!:;-'\"/@&", "style": "special"},
+      {"kind": "action", "weight": 1.6, "style": "pill"}
+    ]
+  ]
+}

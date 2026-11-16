@@ -1,0 +1,3 @@
+7e6ae2005503b55914c8ddbc7b05f2ea5e773a879b80110aff8168e887530e1c *TextPic-Studio-1.0.1-debug.apk
+ad2c8094e8eba8c312669f2fc82067e5a4c4196ad3fb0dc30e4f7446a6551212 *TextPic-Studio-1.0.1-release.aab
+b293d6c50c65ee109236c9b641ee082eb5ce064a8b5e5200a0092602b6456161 *TextPic-Studio-1.0.1-release.apk

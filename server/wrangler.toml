@@ -1,0 +1,17 @@
+# TextPic Studio license server (Cloudflare Worker + D1)
+#
+# After `wrangler d1 create textpic-licenses`, paste the database_id it prints
+# below. Setup: see docs/SETUP_SERVER.md.
+name = "textpic-license"
+main = "src/index.ts"
+compatibility_date = "2026-02-01"
+
+# Day boundary for per-day image limits. The owner console overwrites this
+# through the settings table on first setup, so this is only the fallback.
+[vars]
+QUOTA_TZ = "UTC"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "textpic-licenses"
+database_id = "98d63634-9565-433a-8099-83ff27d94a17"

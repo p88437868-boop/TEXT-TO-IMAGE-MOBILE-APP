@@ -1,0 +1,25 @@
+# Local machine secrets and build output
+local.properties
+keystore.properties
+license-keys/
+*.pem
+.gradle/
+build/
+**/build/
+.idea/
+*.iml
+
+# License server (Cloudflare Worker)
+server/node_modules/
+server/.wrangler/
+server/.dev.vars
+server/dist/
+
+# Owner console (Python)
+owner-console/build/
+owner-console/dist/
+owner-console/*.spec
+__pycache__/
+*.pyc
+.venv/
+server/.secrets/

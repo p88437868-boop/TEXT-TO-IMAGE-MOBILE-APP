@@ -1,0 +1,7 @@
+TextPic Studio — Owner Console
+
+Server URL:   https://textpic-license.textpic-license.workers.dev
+Admin token:  in server\.secrets\admin-token.txt  (keep it private)
+
+First run: paste both, press "Test connection", then Save.
+The token is then kept in the Windows Credential Manager.

@@ -1,0 +1,48 @@
+{
+  "name": "English QWERTY",
+  "rows": [
+    [
+      {"label": "q", "output": "q", "type": "char", "weight": 1},
+      {"label": "w", "output": "w", "type": "char", "weight": 1},
+      {"label": "e", "output": "e", "type": "char", "weight": 1},
+      {"label": "r", "output": "r", "type": "char", "weight": 1},
+      {"label": "t", "output": "t", "type": "char", "weight": 1},
+      {"label": "y", "output": "y", "type": "char", "weight": 1},
+      {"label": "u", "output": "u", "type": "char", "weight": 1},
+      {"label": "i", "output": "i", "type": "char", "weight": 1},
+      {"label": "o", "output": "o", "type": "char", "weight": 1},
+      {"label": "p", "output": "p", "type": "char", "weight": 1}
+    ],
+    [
+      {"label": "a", "output": "a", "type": "char", "weight": 1},
+      {"label": "s", "output": "s", "type": "char", "weight": 1},
+      {"label": "d", "output": "d", "type": "char", "weight": 1},
+      {"label": "f", "output": "f", "type": "char", "weight": 1},
+      {"label": "g", "output": "g", "type": "char", "weight": 1},
+      {"label": "h", "output": "h", "type": "char", "weight": 1},
+      {"label": "j", "output": "j", "type": "char", "weight": 1},
+      {"label": "k", "output": "k", "type": "char", "weight": 1},
+      {"label": "l", "output": "l", "type": "char", "weight": 1}
+    ],
+    [
+      {"label": "⇧", "output": "", "type": "shift", "weight": 1.5},
+      {"label": "z", "output": "z", "type": "char", "weight": 1},
+      {"label": "x", "output": "x", "type": "char", "weight": 1},
+      {"label": "c", "output": "c", "type": "char", "weight": 1},
+      {"label": "v", "output": "v", "type": "char", "weight": 1},
+      {"label": "b", "output": "b", "type": "char", "weight": 1},
+      {"label": "n", "output": "n", "type": "char", "weight": 1},
+      {"label": "m", "output": "m", "type": "char", "weight": 1},
+      {"label": "⌫", "output": "", "type": "backspace", "weight": 1.5}
+    ],
+    [
+      {"label": "?123", "output": "", "type": "symbols", "weight": 1.5},
+      {"label": ",", "output": ",", "type": "char", "weight": 1},
+      {"label": "☺", "output": "", "type": "emoji", "weight": 1},
+      {"label": "space", "output": " ", "type": "space", "weight": 4},
+      {"label": "Insert", "output": "", "type": "insert", "weight": 1.6},
+      {"label": "⏎", "output": "", "type": "enter", "weight": 1.2},
+      {"label": "Render", "output": "", "type": "render", "weight": 2}
+    ]
+  ]
+}

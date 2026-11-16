@@ -1,0 +1,18 @@
+{
+  "name": "textpic-license-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TextPic Studio license server (Cloudflare Worker + D1). No runtime dependencies.",
+  "scripts": {
+    "test": "node --test test/util.test.ts test/verify.test.ts test/quota.test.ts test/admin.test.ts test/releases.test.ts",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate:local": "wrangler d1 execute textpic-licenses --local --file=migrations/0001_init.sql && wrangler d1 execute textpic-licenses --local --file=migrations/0002_releases.sql",
+    "db:migrate:remote": "wrangler d1 execute textpic-licenses --remote --file=migrations/0001_init.sql && wrangler d1 execute textpic-licenses --remote --file=migrations/0002_releases.sql",
+    "smoke": "node tools/smoke.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
